@@ -41,3 +41,25 @@
     transition: all 500ms ease-in-out;
     color: var(--light-pink);
 }
+
+
+/* btn subcribe */
+
+.btn-subcribe {
+    border: none;
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 7px 30px;
+    border-radius: 5px;
+}
+
+.attribution {
+    color: var(--white);
+    background-color: var(--very-dark-cyan);
+    font-size: 11px;
+    text-align: center;
+}
+
+footer p>a {
+    text-decoration: none;
+}
