@@ -1,0 +1,43 @@
+* {
+    /* colors */
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+    --mid-blue: hsl(228, 45%, 44%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+    --white: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-primary {
+    border: none;
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-pink);
+    transition: all 500ms ease-in-out;
+}
+
+.btn-secondary {
+    border: 1px solid var(--pink);
+    color: var(--pink);
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.btn-secondary:hover {
+    border-color: var(--light-pink);
+    transition: all 500ms ease-in-out;
+    color: var(--light-pink);
+}
