@@ -43,7 +43,8 @@ a {
     height: 70px;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .navbar .nav-logo img {
@@ -59,6 +60,33 @@ a {
 
 /* Main content */
 
+.main-content {
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 30px;
+}
+
+.empty-space {
+    height: 150px;
+}
+
+.main-content h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 14px;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
 
 /* Landing info */
 
@@ -67,10 +95,15 @@ a {
 
 @media (max-width: 701px) {
     .navbar {
-        background-color: chartreuse;
         margin: 0 20px;
     }
     .navbar .nav-logo img {
         width: 100px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .navbar {
+        margin: 0 100px;
     }
 }
