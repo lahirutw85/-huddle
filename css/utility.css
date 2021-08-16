@@ -20,7 +20,7 @@
     border: none;
     background-color: var(--pink);
     color: var(--white);
-    padding: 15px 50px;
+    padding: 10px 30px;
     border-radius: 25px;
 }
 
@@ -33,7 +33,7 @@
     border: 1px solid var(--pink);
     color: var(--pink);
     padding: 5px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .btn-secondary:hover {
@@ -59,4 +59,17 @@
     font-size: 11px;
     text-align: center;
     padding: 10px;
+}
+
+
+/* mobile setting */
+
+@media (max-width: 701px) {
+    .btn-secondary {
+        border: 1px solid var(--pink);
+        color: var(--pink);
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-size: 11px;
+    }
 }
