@@ -54,10 +54,15 @@
     border-radius: 5px;
 }
 
+.btn-subcribe:hover {
+    background-color: var(--light-pink);
+    transition: all 500ms ease-in-out;
+}
+
 .attribution {
     color: var(--white);
     background-color: var(--very-dark-cyan);
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     padding: 10px;
 }
@@ -76,6 +81,17 @@
 
 .mr-1 {
     margin-right: 10%;
+}
+
+.mlr-1 {
+    margin: 0 5%;
+}
+
+
+/* padding */
+
+.pb-1 {
+    margin-bottom: 20px;
 }
 
 
@@ -107,19 +123,16 @@
     .mr-1 {
         margin: 0 10%;
     }
-    .pb-1 {
-        margin-bottom: 40px;
-    }
     .column p {
         text-align: center;
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
     .column img {
         width: 100%;
     }
     .column-bg {
         background: url('/images/background-01.png') no-repeat center center/cover;
-        height: 100vh;
+        height: 70vh;
     }
 }
