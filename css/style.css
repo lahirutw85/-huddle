@@ -107,7 +107,7 @@ a {
 .landing-info {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .landing-info img {
@@ -122,6 +122,28 @@ a {
 .landing-info p {
     font-size: 14px;
     text-align: center;
+}
+
+
+/* content Area */
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column img {
+    width: 70%;
+}
+
+.column h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.column p {
+    width: 80%;
 }
 
 
