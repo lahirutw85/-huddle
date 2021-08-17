@@ -17,10 +17,11 @@
 }
 
 .btn-primary {
+    font-size: 12px;
     border: none;
     background-color: var(--pink);
     color: var(--white);
-    padding: 15px 50px;
+    padding: 10px 30px;
     border-radius: 25px;
 }
 
@@ -33,11 +34,105 @@
     border: 1px solid var(--pink);
     color: var(--pink);
     padding: 5px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .btn-secondary:hover {
     border-color: var(--light-pink);
     transition: all 500ms ease-in-out;
     color: var(--light-pink);
+}
+
+
+/* btn subcribe */
+
+.btn-subcribe {
+    border: none;
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 7px 30px;
+    border-radius: 5px;
+}
+
+.btn-subcribe:hover {
+    background-color: var(--light-pink);
+    transition: all 500ms ease-in-out;
+}
+
+.attribution {
+    color: var(--white);
+    background-color: var(--very-dark-cyan);
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+.column-bg {
+    background: url('/images/background-01.png') no-repeat center center/cover;
+    height: 500px;
+}
+
+
+/* margin */
+
+.ml-1 {
+    margin-left: 10%;
+}
+
+.mr-1 {
+    margin-right: 10%;
+}
+
+.mlr-1 {
+    margin: 0 5%;
+}
+
+
+/* padding */
+
+.pb-1 {
+    margin-bottom: 20px;
+}
+
+
+/* mobile setting */
+
+@media (max-width: 375px) {
+    .btn-secondary {
+        border: 1px solid var(--pink);
+        color: var(--pink);
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-size: 11px;
+    }
+    .flex-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .flex-columns-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .ml-1,
+    .mr-1 {
+        margin: 0 10%;
+    }
+    .column p {
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    .column img {
+        width: 100%;
+    }
+    .column-bg {
+        background: url('/images/background-01.png') no-repeat center center/cover;
+        height: 70vh;
+    }
 }
