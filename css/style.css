@@ -158,10 +158,14 @@ a {
 .footer-flex {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
-.footer-left,
+.footer-left {
+    height: 30%;
+}
+
 .footer-right {
     height: 30%;
 }
