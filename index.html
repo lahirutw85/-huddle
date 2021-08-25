@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/utility.css">
 </head>
@@ -31,7 +31,7 @@
             <h1>Build The Community Your Fans Will Love</h1>
             <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
             <a href="#" class="btn btn-primary">Get Started For Free</a>
-            <img src="images/screen-mockups.svg" alt="">
+            <img src="images/screen-mockups.svg" data-aos="fade-up" alt="">
         </section>
     </header>
 
@@ -45,7 +45,7 @@
             </div>
             <div class="landing-info-right">
                 <img src="images/icon-messages.svg" alt="">
-                <h2> 2.7m+</h2>
+                <h2> 2.7m+</h2> data-aos="fade-up"
                 <p>Messages Sent</p>
             </div>
         </div>
@@ -59,7 +59,7 @@
                     <h3>Grow Together</h3>
                     <p>enerate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
                 </div>
-                <div class="column-2 mr-1 pb-1">
+                <div class="column-2 mr-1 pb-1" data-aos="zoom-in-left">
                     <img src="images/illustration-grow-together.svg" alt="">
                 </div>
             </div>
@@ -67,7 +67,7 @@
         <div class="row">
             <div class="column flex-columns ">
                 <div class="column-1 ml-1 pb-1">
-                    <img src="images/illustration-flowing-conversation.svg" alt="">
+                    <img src="images/illustration-flowing-conversation.svg" data-aos="zoom-in-right" alt="">
                 </div>
                 <div class="column-2 mr-1">
                     <h3>Flowing Conversations</h3>
@@ -83,7 +83,7 @@
                     <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
                 </div>
                 <div class="column-2 mr-1 pb-1">
-                    <img src="images/illustration-your-users.svg" alt="">
+                    <img src="images/illustration-your-users.svg" alt="" data-aos="zoom-in-left">
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
     <!-- bottom area end -->
 
     <!-- Fotter area -->
-    <section class="footer footer-flex">
+    <section class="footer footer-flex" data-aos="zoom-in-up">
 
         <div class="footer-left mlr-1">
             <a href="#"><img class="pb-1" src="images/logo-white.png" alt=""></a>
@@ -131,6 +131,14 @@
             <a href="https://github.com/lahirutw85/-huddle">Lahiru TW</a>.
         </p>
     </footer>
+
+    <!-- AOS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>

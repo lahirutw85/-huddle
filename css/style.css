@@ -11,6 +11,7 @@
     --white: #fff;
     padding: 0;
     margin: 0;
+    transition: all 0.2s linear;
 }
 
 body {
@@ -262,7 +263,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-self: space-around;
+
         margin-bottom: 10px;
     }
     /* Footer */
